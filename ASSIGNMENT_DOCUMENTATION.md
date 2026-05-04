@@ -166,13 +166,15 @@ ReentrantLock
 **Code snippet**:
 ```java
 // Paste your implementation here
-```
+
 lock.lock();
 try {
     contextSwitchCount++;
 } finally {
     lock.unlock();
 }
+```
+
 **Justification**: 
 
 ---Ensures atomic updates and prevents race conditions.
@@ -189,13 +191,17 @@ ReentrantLock
 **Code snippet**:
 ```java
 // Paste your implementation here
-```
 lock.lock();
 try {
     executionLog.add(message);
 } finally {
     lock.unlock();
 }
+
+
+
+```
+
 **Justification**: 
 Prevents concurrent modification errors.
 ---
@@ -211,13 +217,15 @@ Inside run() method
 **Code snippet**:
 ```java
 // Paste your implementation here
-```
 SharedResources.cpuSemaphore.acquire();
 try {
     // execution
 } finally {
     SharedResources.cpuSemaphore.release();
 }
+
+```
+
 **Effect on program behavior**: 
 Ensures only one process executes at a time.
 ---
