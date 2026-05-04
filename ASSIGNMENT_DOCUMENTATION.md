@@ -339,10 +339,18 @@ Without it, multiple users may interfere and cause incorrect results.
 **Number of commits**: 12
 
 **Commit messages**: 
-1. 
-2. 
-3. 
-4. 
+1. change my student ID to 445052023
+2. change my student ID to 445052023
+3. Add ReentrantLock for shared counters
+4. adding Semaphore and import its package for synchronization
+5. Add lock protection for execution log
+6. shared variable name (completedProcessCount) name lock and in finally…
+7. protecting shared variable (totalWaitingTime)using Reentlock
+8. protecting executionlog
+9. Implement semaphore acquire and release in process execution
+10. Implement semaphore acquire and release in process execution
+11. Apply synchronization to runToCompletion method
+12. Apply synchronization to runToCompletion method
 
 ---
 
