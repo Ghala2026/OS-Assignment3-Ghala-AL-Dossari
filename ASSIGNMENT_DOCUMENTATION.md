@@ -238,12 +238,14 @@ Ensures only one process executes at a time.
 **Testing procedure**: 
 ```bash
 # Commands used (run the program at least 5 times)
+java SchedulerSimulationSync
+java SchedulerSimulationSync
+java SchedulerSimulationSync
+java SchedulerSimulationSync
+java SchedulerSimulationSync
+
 ```
-java SchedulerSimulationSync
-java SchedulerSimulationSync
-java SchedulerSimulationSync
-java SchedulerSimulationSync
-java SchedulerSimulationSync
+
 **Results**: 
 Consistent output with correct statistics.
 12                                                               
