@@ -2,7 +2,7 @@
 
 **Student Name**: [Ghala Muslim AL-Dossari]  
 **Student ID**: [445052023]  
-**Date Submitted**: [May 4, 2026]
+**Date Submitted**: [May 5, 2026]
 ---
 
 ## 🎥 VIDEO DEMONSTRATION LINK (REQUIRED)
@@ -13,9 +13,9 @@
 > Set sharing to "Anyone with the link can view".
 > Test the link in incognito/private mode before submitting.
 
-**Video Link**: [Paste your personal Gmail Google Drive link here]
+**Video Link**: https://drive.google.com/file/d/1vLaZZMUayQOmoU2mgGnYopAQHfJ8OgJm/view?usp=drivesdk
 
-**Video filename**: 445052023_Assignment3_Synchronization.mp4`
+**Video filename**: 445052023_Assignment3_Synchronization.mp4
 
 **Verification**:
 - [ ] Link is accessible (tested in incognito mode)
